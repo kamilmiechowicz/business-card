@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh ;
+    font-family: Arial;
 }
 .main{
     background: #F8F8F8;
@@ -17,4 +18,44 @@ body{
     width:624px;
     margin: 16px;
     padding:32px;
+}
+.person{
+    display: flex;
+    align-items: flex-start;
+
+}
+.person__description{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+}
+.person__description--with-margin{
+    margin-bottom: 22px;
+}
+.person__informations{
+    margin-bottom: 24px;
+}
+.person__link{
+    color:#E20613 ;
+    text-decoration: none;
+}
+.person__name{
+    font-size: 36px;
+    margin: 0px;
+    font-weight: normal;
+    
+}
+.person__positon{
+    font-size: 18px;
+    color:#545454;
+    margin: 0px;
+    font-style: italic;
+}
+.person__picture{
+    margin-right:32px ;
+}
+.special{
+    color:#ED6D05 ;
+    font-weight: normal;
+
 }
